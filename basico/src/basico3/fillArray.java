@@ -6,7 +6,8 @@ public class fillArray {
 	public static void main(String[] args) {
 		int[] array = new int[10];
 		
-		Scanner sc=new Scanner(System.in);   
+		Scanner sc=new Scanner(System.in);  
+		
 		 
 		System.out.println("Escreva o array: ");  
 		for(int i=0; i<10; i++)  
