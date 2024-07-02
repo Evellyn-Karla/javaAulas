@@ -24,8 +24,7 @@ public class arrayReverse {
 		System.out.println("\n\nO array reverso desordenado é: " + Arrays.toString(reverse));
 
 		 Arrays.sort(reverse);
-//		for (int x = 0; x < 6; x++) {
-//			int menor = 0;
+//		for (int x = 0; x < ; x++) {
 //			for (int y = 0; y < 7; y++) {
 //				if (reverse[x] < reverse[y]) {
 //					menor=reverse[x];
