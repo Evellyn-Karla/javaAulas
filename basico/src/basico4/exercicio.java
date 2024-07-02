@@ -59,5 +59,10 @@ public class exercicio {
 		String pratexto = (Arrays.toString(palavras)).replace(",", "").replace("[", "").replace("]", "");
 		
 		System.out.println(pratexto.toUpperCase());
+		
+		String pratexto2= pratexto.substring(9) +  pratexto.substring(6, 9) + pratexto.charAt(0) + pratexto.substring(1, 6); 
+		
+		System.out.println(pratexto2.toUpperCase());
+				
 	}
 }
