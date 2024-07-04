@@ -9,12 +9,26 @@ public class CalcularMetodos {
 		return a + b + c;
 	}
 	
-	public static void main(String[] args) {
-		CalcularMetodos calc = new CalcularMetodos();
-		int soma = calc.somar(2, 5);
-		System.out.println(soma);
-		
-		soma = calc.somar(2, 5, 7);
-		System.out.println(soma);
+	int subtrair(int a, int b) {
+		return a-b;
 	}
+	int subtrair(int a, int b, int c) {
+		return a-b-c;
+	}
+	int mult(int a, int b) {
+		return a*b;
+	}
+	int mult(int a, int b, int c) {
+		return a*b*c;
+	}
+	
+	int div(int a, int b) {
+		return a/b;
+	}
+	int div(int a, int b, int c) {
+		return (a/b)/c;
+	}
+	
+	
+	
 }
