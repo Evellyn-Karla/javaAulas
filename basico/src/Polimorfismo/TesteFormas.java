@@ -12,7 +12,7 @@ public class TesteFormas {
 		
 		Retangulo retangulo = new Retangulo(12, 5);
 		double areaRet = retangulo.area(12, 5);
-		double periRet = retangulo.perimetro(10, 4);
+		double periRet = retangulo.perimetro(12, 5);
 
 		System.out.printf("\n\nA área do retângulo é: %.2f\nO perimetro do retângulo é: %.2f", areaRet, periRet);
 	}
